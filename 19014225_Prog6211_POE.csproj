@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>_19014225_Prog6211_POE</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="187161.jpg" />
+    <None Remove="couzens-bg.jpg" />
+    <None Remove="download.jpg" />
+    <None Remove="financial-data-graph-chart-vector-260nw-774026407.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="187161.jpg" />
+    <Resource Include="couzens-bg.jpg" />
+    <Resource Include="download.jpg" />
+    <Resource Include="financial-data-graph-chart-vector-260nw-774026407.jpg" />
+  </ItemGroup>
+
+</Project>
